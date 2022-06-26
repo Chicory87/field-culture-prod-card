@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#page {
+  background-image: url(https://joegardener.com/wp-content/uploads/2018/03/Featured-Image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #header {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:antiquewhite;
+    font-family: sans-serif; */
+/* } */
+
+#container {
+  width: 200w;
+  height: 100vh;
+  display: flex;
+  /* background-image: url(https://joegardener.com/wp-content/uploads/2018/03/Featured-Image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 70px;
+  width: 220px;
+  background: rgba(255, 255, 255, .5);
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: ( 0 5px 40px -20px rgba(0,0,0, .04));
+}
+
+#bag img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+}
+
+#product {
+  text-align: center;
+  font-weight: 1000;
+  font-family: sans-serif;
+  font-size: larger;
+  padding: 10px;
+  color: rgb(5, 30, 10);
+}
+#info {
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: underline;
+  padding: 10px
+}
+
+#price {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif; 
+  color: rgb(5, 30, 10);
+  padding: 10px
+}
+
+#button {
+  text-align: center;
+  background: rgba(1, 145, 35, 0.795);
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  font-weight: bold;
+  color: rgb(3, 33, 121);
+}
